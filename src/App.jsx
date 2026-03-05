@@ -49,7 +49,7 @@ function App() {
       <Navbar />
       <Banner inProgress={inProgress.length} resolved={resolved.length} />
 
-      <div className="grid md:grid-cols-3 gap-6 container mx-auto">
+      <div className="container mx-auto px-4 md:px-8 grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6 my-4 md:my-8">
         {/* LEFT SIDE */}
         <div className="md:col-span-2">
           <h2 className="text-xl font-bold mb-4">Customer Tickets</h2>

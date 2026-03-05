@@ -1,6 +1,7 @@
 ## Expanding the ESLint configuration
 
 ##CS — Ticket System
+netlify link :https://fastidious-piroshki-c46838.netlify.app/
 
 A simple React Customer Support Ticket System where users can view tickets, add them to In Progress, and mark them as Completed.
 Responsive UI using TailwindCSS & DaisyUI

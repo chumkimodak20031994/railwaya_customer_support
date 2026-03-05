@@ -4,7 +4,8 @@ import vector2 from "../../assets/vector2.png";
 
 const Banner = ({ inProgress, resolved }) => {
   return (
-    <div className="grid md:grid-cols-2 gap-6 container mx-auto my-4 md:my-8">
+    // <div className="grid md:grid-cols-2 gap-6 container mx-auto my-4">
+    <div className="container mx-auto px-4 md:px-8 grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6 my-4 md:my-8">
       {/* In Progress */}
       <div
         className="rounded-lg p-12 text-white bg-cover bg-center items-center justify-center text-center"
