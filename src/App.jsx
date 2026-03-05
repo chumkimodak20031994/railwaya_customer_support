@@ -6,6 +6,7 @@ import TicketCard from "./components/ticketCards/TicketCard";
 import TaskStatus from "./components/taskStatus/TaskStatus";
 import Banner from "./components/statusbar/Banner";
 import Footer from "./components/footer/Footer";
+import { toast, ToastContainer } from "react-toastify";
 
 function App() {
   const [tickets, setTickets] = useState([]);
@@ -22,24 +23,19 @@ function App() {
     loadTickets();
   }, []);
 
-  // Add ticket to In Progress
-  // const handleAddTask = (ticket) => {
-  //   alert("Ticket added to In Progress");
-
-  //   setInProgress((prev) => [...prev, ticket]);
-  // };
   const handleAddTask = (ticket) => {
-    alert("Ticket added to In Progress");
+    if (inProgress.find((t) => t.id === ticket.id)) {
+      toast.warning("Ticket already in progress");
+      return;
+    }
 
-    // prevent duplicate
-    if (inProgress.find((t) => t.id === ticket.id)) return;
+    toast.success("Ticket added to In Progress");
 
     setInProgress([...inProgress, ticket]);
   };
 
-  // Complete task
   const handleComplete = (task) => {
-    alert("Task Completed");
+    toast.success("Task Completed ");
 
     setResolved((prev) => [...prev, task]);
 
@@ -79,6 +75,7 @@ function App() {
         </div>
       </div>
       <Footer />
+      <ToastContainer position="top-right" autoClose={1500} />
     </>
   );
 }

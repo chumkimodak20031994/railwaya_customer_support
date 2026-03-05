@@ -16,8 +16,10 @@ const Footer = () => {
             CS — Ticket System
           </h2>
           <p className="text-sm text-gray-400">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry.
+            Our Customer Support Ticket System helps businesses efficiently
+            manage, track, and resolve customer issues. It ensures faster
+            response times, better communication, and improved customer
+            satisfaction.
           </p>
         </div>
 
