@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "title": "Login page error",
+    "description": "Users cannot log in using Google authentication.",
+    "customer": "ABC Pvt Ltd",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2026-03-01"
+  },
+  {
+    "id": 2,
+    "title": "Payment gateway failure",
+    "description": "Transactions are failing for credit card payments.",
+    "customer": "ShopEasy",
+    "priority": "Critical",
+    "status": "In Progress",
+    "createdAt": "2026-03-02"
+  },
+  {
+    "id": 3,
+    "title": "UI alignment issue",
+    "description": "Buttons overlap on mobile screens.",
+    "customer": "Jony De",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2026-03-03"
+  },
+  {
+    "id": 4,
+    "title": "Slow dashboard loading",
+    "description": "Dashboard takes more than 10 seconds to load.",
+    "customer": "Smith hasan",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "2026-03-01"
+  },
+  {
+    "id": 5,
+    "title": "Email notification not sent",
+    "description": "Users do not receive account verification emails.",
+    "customer": "MailTech",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2026-03-04"
+  },
+  {
+    "id": 6,
+    "title": "Profile image upload issue",
+    "description": "Uploading profile images fails for large files.",
+    "customer": "SocialConnect",
+    "priority": "Medium",
+    "status": "Resolved",
+    "createdAt": "2026-03-02"
+  },
+  {
+    "id": 7,
+    "title": "Search function not working",
+    "description": "Search results are empty for valid queries.",
+    "customer": "FindIt",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2026-03-03"
+  },
+  {
+    "id": 8,
+    "title": "Broken product images",
+    "description": "Product images are not loading on the catalog page.",
+    "customer": "MarketZone",
+    "priority": "Medium",
+    "status": "In Progress",
+    "createdAt": "2026-03-02"
+  },
+  {
+    "id": 9,
+    "title": "App crash on startup",
+    "description": "Mobile app crashes immediately after opening.",
+    "customer": "AppWorld",
+    "priority": "Critical",
+    "status": "Open",
+    "createdAt": "2026-03-05"
+  },
+  {
+    "id": 10,
+    "title": "Incorrect order total",
+    "description": "Order summary shows incorrect total amount.",
+    "customer": "QuickCart",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "2026-03-04"
+  },
+  {
+    "id": 11,
+    "title": "Password reset link expired",
+    "description": "Reset link expires immediately after generation.",
+    "customer": "SecureLogin",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2026-03-03"
+  },
+  {
+    "id": 12,
+    "title": "Notification badge not updating",
+    "description": "Unread notification count does not refresh.",
+    "customer": "NotifyPro",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2026-03-02"
+  }
+]
