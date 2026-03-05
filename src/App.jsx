@@ -40,6 +40,8 @@ function App() {
     setResolved((prev) => [...prev, task]);
 
     setInProgress((prev) => prev.filter((item) => item.id !== task.id));
+    // remove from ticket list (LEFT SIDE)
+    setTickets((prev) => prev.filter((ticket) => ticket.id !== task.id));
   };
 
   return (
